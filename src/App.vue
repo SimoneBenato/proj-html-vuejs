@@ -19,5 +19,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'colors.scss'
+@import 'styles/generals.scss';
+@import 'styles/colors.scss';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 </style>
