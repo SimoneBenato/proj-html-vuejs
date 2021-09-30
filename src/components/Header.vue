@@ -27,7 +27,6 @@
         </li>
       </ul>
     </nav>
-
     <!-- selezione lingua sito -->
     <div class="leng_serch">
       <div class="leng">
