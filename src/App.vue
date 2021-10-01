@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <Wrapper/>
+    <Component1/>
     <Footer/>
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import Header from './components/Header.vue'
 import Wrapper from './components/Wrapper.vue'
+import Component1 from './components/Component1.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     Header,
     Wrapper,
+    Component1,
     Footer
   }
 }
