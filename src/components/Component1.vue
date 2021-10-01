@@ -66,6 +66,7 @@ export default {
 .container {
   width: 80%;
   margin: 100px auto;
+  height: calc(100vh - 200px);
   
   .description {
     width: 70%;
