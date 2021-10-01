@@ -78,15 +78,15 @@ export default {
       height: 600px;
       margin-right: 20px;
       background-color: $white;
-      border-radius: 25px;
+      border-radius: 10px;
 
         .img {
           height: 50%;
 
           img {
             width: 100%;
-            border-top-right-radius: 25px;
-            border-top-left-radius: 25px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
           }
         }
 

@@ -28,4 +28,7 @@ li {
   margin: 0 auto;
   height: 100vh;
   padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

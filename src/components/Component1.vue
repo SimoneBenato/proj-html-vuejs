@@ -7,9 +7,11 @@
     </div>
 
     <!-- sezione offerte -->
-    <div class="features">
-      <h5></h5>
-      <p></p>
+    <div class="features-container">
+      <div class="features" v-for="(item, index) in features" :key="index">
+        <h5>{{item.title}}</h5>
+        <p>{{item.description}}</p>
+      </div>
     </div>
 
     <!-- sezione pulsanti -->
@@ -79,19 +81,24 @@ export default {
     }
   }
   
-  .features {
-    width: calc(100% / 3);
-    padding: 20px;
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
 
-    h5 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      color: $charade;
-    }
+    .features {
+      width: calc(100% / 3);
+      padding: 20px;
 
-    p {
-      font-size: 1.3rem;
-      color: $boulder
+      h5 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        color: $charade;
+      }
+
+      p {
+        font-size: 1.3rem;
+        color: $boulder
+      }
     }
   }
 

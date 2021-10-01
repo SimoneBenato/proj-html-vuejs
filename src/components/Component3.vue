@@ -6,17 +6,9 @@
     </div>
 
     <div class="card-section">
-      <div class="card">
-            <div class="img">
-              <img src="../images/home-business-service-slide-01-480x298.jpg" alt="">
-            </div>
-            <div class="description">
-              <h4>Consultative Training</h4>
-              <p>With a coach addressing multiple issues that are off balance, affecting your business in various unconsidered ways.</p>
-            </div>
-            <div class="link">
-              <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
-            </div>
+      <div class="card" v-for="(item, index) in courses" :key="index" :style="{'background-image': 'url(' + require('../images/' + item.image) + ')'}">
+        <span class="price">{{item.price}}</span>
+        <p class="service">{{item.service}}</p>
       </div>
     </div>
   </div>
@@ -29,6 +21,32 @@ export default {
   props: {                                                 
   
   },
+  data() {
+    return {
+      courses: [
+        {
+            price: '$40.00',
+            service: 'Learn to Write as a Professional Author',
+            image: 'course-02-443x600.jpg'
+        },
+        {
+            price: 'Free',
+            service: 'Customer-centric Info-Tech Strategies',
+            image: 'stock-full-hd-03-443x600.jpg'
+        },
+        {
+            price: '$19.00',
+            service: 'Open Programming Courses for Everyone: Python',
+            image: 'stock-full-hd-04-443x600.jpg'
+        },
+        {
+            price: '$26.00',
+            service: 'Academic Listening and Note-taking',
+            image: 'stock-full-hd-06-443x600.jpg'
+        }
+      ]
+    }
+  },
 }
 </script>
 
@@ -39,52 +57,31 @@ export default {
   width: 90%;
 
   .card-section {
+    display: flex;
+    justify-content: space-evenly;
+
+    .card {
+      width: calc((100% / 4) - 40px);
+      height: 500px;
+      // background-image: url('../images/course-02-443x600.jpg');
+      border-radius: 10px;
+      padding: 30px;
       display: flex;
-      margin-top: 50px;
+      flex-direction: column;
+      justify-content: flex-end;
 
-      .card {
-      width: calc((100% / 3) - 20px);
-      height: 600px;
-      margin-right: 20px;
-      background-color: $white;
-      border-radius: 25px;
-
-        .img {
-          height: 50%;
-
-          img {
-            width: 100%;
-            border-top-right-radius: 25px;
-            border-top-left-radius: 25px;
-          }
-        }
-
-        .description {
-          height: 40%;
-          padding: 40px;
-
-          h4 {
-            font-size: 2rem;
-            margin-bottom: 15px;
-          }
-
-          p {
-            font-size: 1.3rem;
-            color: $boulder;
-          }
-        }
-
-        .link {
-          height: 10%;
-          border-top: 1px solid $porcelain;
-          color: $jungle_green;
-          font-weight: bold;
-          font-size: 1.2rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+      .price {
+        color: $jungle_green;
+        font-size: 1.7rem;
+        font-weight: bold;
       }
+
+      .service {
+        color: $white;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
   }
 }
 </style>
