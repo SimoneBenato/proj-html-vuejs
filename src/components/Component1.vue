@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- sezione descrittiva dei vari servizi offerti -->
-    <div class="description">
+    <div class="description title">
       <h3>Let's Dream Big Together</h3>
       <p>We are pioneers of the digital approach, using leading-edge technology to simplify procedures and apply executive coaching in the new age of digitalization.</p>
     </div>
@@ -65,21 +65,13 @@ export default {
 @import '../styles/colors.scss';
 .container {
   width: 80%;
-  margin: 100px auto;
-  height: calc(100vh - 200px);
   
   .description {
     width: 70%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
-  
-    h3 {
-      color: $jungle_green;
-      font-size: 2rem;
-    }
 
     p {
       font-size: 2.5rem;

@@ -1,9 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="container">
-      <h3>Let's Dream Big Together</h3>
-      <h2>Explore How can i help you</h2>
-
+      <div class="title">
+        <h3>Let's Dream Big Together</h3>
+        <h2>Explore How can i help you</h2>
+      </div>
       <!-- sezione delle carte -->
       <div class="card-section">
         <div class="card">
@@ -50,7 +51,7 @@
 <script>
 
 export default {
-  name: 'Component1',
+  name: 'Component2',
   props: {                                                 
   
   },
@@ -63,24 +64,11 @@ export default {
 .container-fluid {
   width: 100%;
   background-color: $porcelain;
-  height: 100vh;
+  
 
   .container {
-  width: 80%;
-  margin: 100px auto;
-  text-align: center;
-  padding-top: 50px;
+    width: 80%;
 
-    h3 {
-      color: $jungle_green;
-      font-size: 2rem;
-    }
-
-    h2 {
-      font-size: 3.2rem;
-      margin: 25px auto;
-    }
-    
     .card-section {
       display: flex;
       margin-top: 50px;

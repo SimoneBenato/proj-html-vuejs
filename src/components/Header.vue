@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-header">
     <!-- logo -->
     <div class="logo">
       <img src="../images/dark-logo.png" alt="">
@@ -55,7 +55,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.container {
+.container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;

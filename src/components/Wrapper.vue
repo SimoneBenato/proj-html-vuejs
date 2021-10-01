@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="container">
+    <div class="container-wrapper">
       <!-- sezione scritte -->
       <div class="click-bait">
         <h3>New Challenges, New Skills</h3>
@@ -34,7 +34,7 @@ export default {
   height: calc(100vh - 50px);
   position: relative;
   
-  .container {
+  .container-wrapper {
     width: 80%;
     margin: 0 auto;
     display: flex;
