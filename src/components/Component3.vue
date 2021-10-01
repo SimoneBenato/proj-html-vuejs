@@ -11,6 +11,10 @@
         <p class="service">{{item.service}}</p>
       </div>
     </div>
+
+    <div class="links">
+      <p>Take the control of their life back and start doing things to make their dream come true.<span class="bold">View all courses <i class="fas fa-long-arrow-alt-right"></i></span></p>
+    </div>
   </div>
 </template>
 
@@ -81,6 +85,19 @@ export default {
         font-size: 2rem;
         font-weight: bold;
       }
+    }
+  }
+
+  .links {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 30%;
+    margin: 0 auto;
+    color: $boulder;
+
+    .bold {
+      font-weight: bold;
+      color: black;
     }
   }
 }
