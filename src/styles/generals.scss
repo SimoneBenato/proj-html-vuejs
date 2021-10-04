@@ -32,3 +32,19 @@ li {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+.container-footer {
+
+  a {
+    text-decoration: none;
+    color: $silver;
+  }
+  
+  a:hover {
+    color: $white;
+  }
+}
+
+button:hover {
+cursor: pointer;
+}

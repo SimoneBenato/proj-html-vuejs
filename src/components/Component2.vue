@@ -71,11 +71,11 @@ export default {
 
     .card-section {
       display: flex;
-      margin-top: 50px;
+      justify-content: center;
 
       .card {
-      width: calc((100% / 3) - 20px);
-      height: 600px;
+      width: calc((90% / 3) - 20px);
+      height: 500px;
       margin-right: 20px;
       background-color: $white;
       border-radius: 10px;
@@ -85,6 +85,7 @@ export default {
 
           img {
             width: 100%;
+            height: 100%;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
           }
