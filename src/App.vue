@@ -5,6 +5,8 @@
     <Component1/>
     <Component2/>
     <Component3/>
+    <Component4/>
+    <Component5/>
     <Footer/>
   </div>
 </template>
@@ -15,6 +17,8 @@ import Wrapper from './components/Wrapper.vue'
 import Component1 from './components/Component1.vue'
 import Component2 from './components/Component2.vue'
 import Component3 from './components/Component3.vue'
+import Component4 from './components/Component4.vue'
+import Component5 from './components/Component5.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -25,6 +29,8 @@ export default {
     Component1,
     Component2,
     Component3,
+    Component4,
+    Component5,
     Footer
   }
 }

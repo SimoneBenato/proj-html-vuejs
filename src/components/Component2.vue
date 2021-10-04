@@ -16,7 +16,9 @@
             <p>With a coach addressing multiple issues that are off balance, affecting your business in various unconsidered ways.</p>
           </div>
           <div class="link">
-            <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
+            <a href="">
+              <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
           </div>
         </div>
         <div class="card">
@@ -28,7 +30,9 @@
             <p>Brings an exceptionally powerful opportunity. Being able to accept, to work with that opportunity.</p>
           </div>
           <div class="link">
-            <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
+            <a href="">
+              <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
           </div>
         </div>
         <div class="card">
@@ -40,7 +44,9 @@
             <p>Getting High quality, entrepreneur mindset driven online business coaching, is what is needed</p>
           </div>
           <div class="link">
-            <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
+            <a href="">
+              <span>Discover now <i class="fas fa-long-arrow-alt-right"></i></span>
+            </a>
           </div>
         </div>
       </div>
@@ -101,7 +107,7 @@ export default {
           }
 
           p {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             color: $boulder;
           }
         }
@@ -109,12 +115,15 @@ export default {
         .link {
           height: 10%;
           border-top: 1px solid $porcelain;
-          color: $jungle_green;
           font-weight: bold;
           font-size: 1.2rem;
           display: flex;
           justify-content: center;
           align-items: center;
+
+          a {
+            color: $jungle_green;
+          }
         }
       }
     }

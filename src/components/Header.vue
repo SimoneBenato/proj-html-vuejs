@@ -2,28 +2,42 @@
   <div class="container-header">
     <!-- logo -->
     <div class="logo">
-      <img src="../images/dark-logo.png" alt="">
+      <a href="">
+        <img src="../images/dark-logo.png" alt="">
+      </a>
     </div>
     <!-- menù di navigazione -->
     <nav>
       <ul class="links">
         <li>
-          Home <i class="fas fa-chevron-down"></i>
+          <a href="">
+            Home <i class="fas fa-chevron-down"></i>
+          </a>
         </li>
         <li>
-          Pages <i class="fas fa-chevron-down"></i>
+          <a href="">
+            Pages <i class="fas fa-chevron-down"></i>
+          </a>
         </li>
         <li>
-          Courses <i class="fas fa-chevron-down"></i>
+          <a href="">
+            Courses <i class="fas fa-chevron-down"></i>
+          </a>
         </li>
         <li>
-          Features <i class="fas fa-chevron-down"></i>
+          <a href="">
+            Features <i class="fas fa-chevron-down"></i>
+          </a>
         </li>
         <li>
-          Blog <i class="fas fa-chevron-down"></i>
+          <a href="">
+            Blog <i class="fas fa-chevron-down"></i>
+          </a>
         </li>
         <li>
-          Shop <i class="fas fa-chevron-down"></i>
+          <a href="">
+            Shop <i class="fas fa-chevron-down"></i>
+          </a>
         </li>
       </ul>
     </nav>
@@ -31,14 +45,20 @@
     <div class="leng_serch">
       <div class="leng">
         <img src="../images/en.png" alt="">
-        <p>ENGLISH <i class="fas fa-chevron-down"></i></p>
-        <i class="far fa-user-circle"></i>
+        <a href="">
+          <p>ENGLISH <i class="fas fa-chevron-down"></i></p>
+        </a>
+        <a href="">
+          <i class="far fa-user-circle"></i>
+        </a>
       </div>
 
     <!-- barra di ricerca -->
       <div>
         <input type="text" name="" id="" placeholder="Serch...">
-        <i class="fas fa-search"></i>
+        <a href="">
+          <i class="fas fa-search"></i>
+        </a>
       </div>
     </div>
   </div>

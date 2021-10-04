@@ -77,8 +77,8 @@ export default {
       background-image: url('../images/home-business-hero-global-image.png');
       background-size: cover;
       height: 100%;
-      position: relative;
-
+      position: relative;   	
+      
       img {
         position: absolute;
         bottom: 0;
